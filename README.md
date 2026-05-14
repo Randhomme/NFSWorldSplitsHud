@@ -26,4 +26,7 @@ A set of GFX files to display splits during a race (sprint and circuit)
 - As a bonus, a restart race button (top bar, nfs world logo, a little bit alone, you can't miss it)
 
 ## How does it look ?
+
 I don't know, maybe it's not that bad ?
+
+![Screenshot of the splits hud in action, on Highway 142, the best race ever](/nfsw001.png)
