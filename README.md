@@ -26,6 +26,15 @@ Currently available on :
 
 - Last but not least : you can import a run of your choice to use it as a comparison run during a race. To do so, open `ComparisonRun.txt` (you need to move this file to the `GFX` folder of your game). The file needs to start by `comparisonRun=`, paste your run after the `=`, then click the `Import` button to load the pasted run
 
+### Exemple run
+
+Here is how a run looks like (it's a 5:56.527 on Highway 142) :
+```
+1393,1393;2143,db0;2d72,c2f;3b87,e15;47f1,c6a;53be,bcd;5f14,b56;6aca,bb6;7600,b36;8029,a29;8925,8fc;9286,961;9c4c,9c6;a7a3,b57;b3cb,c28;b4f7,12c;c627,1130;d43a,e13;e0b5,c7b;ed38,c83;fcd6,f9e;10708,a32;11629,f21;124b2,e89;13585,10d3;152d9,1d54;163b4,10db;1777e,13ca;18278,afa;190e2,e6a;19fcb,ee9;1b47d,14b2;1c39b,f1e;1d145,daa;1e162,101d;1ef5a,df8;1ff0d,fb3;20e56,f49;2217e,1328;23034,eb6;23f82,f4e;2524a,12c8;265bc,1372;274a5,ee9;282b4,e0f;28f3c,c88;29a74,b38;2a690,c1c;2b568,ed8;2bf2e,9c6;2ceba,f8c;2da71,bb7;2e6f0,c7f;2f443,d53;300bd,c7a;30c77,bba;317cd,b56;32321,b54;32edf,bbe;3385a,97b;34141,8e7;34ac0,97f;354ca,a0a;3601c,b52;36b5d,b41;36e1a,2bd;37fd0,11b6;38dbd,ded;39984,bc7;3a6ce,d4a;3b670,fa2;3bfcf,95f;3ce45,e76;3ddde,f99;3ef34,1156;40c04,1cd0;41cce,10ca;42cce,1000;437be,af0;44569,dab;4543b,ed2;46900,14c5;477ce,ece;48589,dbb;4957f,ff6;4a3f3,e74;4b2d3,ee0;4c2ca,ff7;4d538,126e;4e400,ec8;4f3a4,fa4;5072a,1386;518bd,1193;526d1,e14;5347a,da9;540e3,c69;54cbe,bdb;55857,b99;56751,efa;570af,95e
+```
+
+You can import this run as a comparison run by pasting it in `ComparisonRun.txt` and clicking the `Import` button, as written above
+
 ## The features
 - Current split and segment displayed during the race (for each percent)
 - Delta with PB or a comparison run of your choice (use the buttons to swith between PB and comparison run)
