@@ -46,6 +46,8 @@ You can import this run as a comparison run by pasting it in `ComparisonRun.txt`
 - If `ComparisonRun.txt` is empty, clicking `Import` button crashes the game
 - Personal best and comparison will be updated in `UserSettings.xml` only after closing the game
 
+You found a bug, or you have an idea for an improvement ? Contact me on Discord !
+
 ## How does it look ?
 
 It looks like this :
