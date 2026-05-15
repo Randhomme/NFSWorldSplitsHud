@@ -6,13 +6,21 @@ A set of GFX files to display splits during a race (sprint and circuit)
 Download the [latest release](https://github.com/Randhomme/NFSWorldSplitsHud/releases/latest) for the server you want. Then drop the files in the `GFX` folder when your game is already running.
 
 Currently available on :
+- FreeroamSparkServer
+- NightRiderz (included as a server mod directly)*
+- Overdrive
+- UndergroundStage
+- Vanilla
+- WorldEvolved
 - WorldUnited
+
+*there won't be any download link for NR since it's already included in the server mods
 
 ## How does it work ?
 
 ### Things you probably don't need to know
 
-- I had to move the ranking indicators (sprint and circuit) to `CommonHUD.gfx`. Technically speaking, `CommonHUD` now imports both ranking indicators to display them when needed. The reason is both `SprintRankingIndicator` and `CircuitRankingIndicator` can't use the global api commands (don't ask me why). And to load and save the splits outside the game, we need to use a command named `SetPersistentValue`. This command saves values to `UserSettings.xml`, under the `PersistentValue` tag. Splits are saved under `PersistentValue` > `ServerName` (the name of the server used in the settings, see below for more information) > `EventId_PersonalBest` and `EventId_ComparisonRun`
+- I had to move the ranking indicators (sprint and circuit) to `CommonHUD.gfx`. Technically speaking, `CommonHUD` now imports both ranking indicators to display them when needed. The reason is both `SprintRankingIndicator` and `CircuitRankingIndicator` can't use the global api commands (don't ask me why). And to load and save the splits outside the game, we need to use a command named `SetPersistentValue`. This command saves values to `UserSettings.xml`, under the `PersistentValue` tag. Splits are saved under `PersistentValue` > `ServerName` (the name of the server used in the settings, see below for more information) > `EventId_PersonalBest` and `EventId_ComparisonRun` (for exemple `Event1234_PersonalBest` for the event with 1234 as `Id`)
 
 - I also had to modify `RaceGadget.gfx` to retreive the correct event id and use it in the splits hud, since the `GetEventId` command gets the last lobby and not the race itself (it sounds confusing, but you can start a race from a completely different lobby, think about randomizer on WUGG or time attack mode on NR)
 
