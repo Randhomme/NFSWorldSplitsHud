@@ -39,10 +39,15 @@ You can import this run as a comparison run by pasting it in `ComparisonRun.txt`
 - Current split and segment displayed during the race (for each percent)
 - Delta with PB or a comparison run of your choice (use the buttons to swith between PB and comparison run)
 - Server drop down menu to have splits for each server (in the settings menu of the splits mod)
+- Personal best and comparison run saved in `UserSettings.xml` (will be updated only after game close)
 - As a bonus, a restart race button (top bar, nfs world logo, a little bit alone, you can't miss it)
+
+## Known bugs and issues
+- If `ComparisonRun.txt` is empty, clicking `Import` button crashes the game
+- Personal best and comparison will be updated in `UserSettings.xml` only after closing the game
 
 ## How does it look ?
 
-I don't know, maybe it's not that bad ?
+It looks like this :
 
 ![Screenshot of the splits hud in action, on Highway 142, the best race ever](/nfsw001.png)
