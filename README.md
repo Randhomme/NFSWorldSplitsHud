@@ -7,14 +7,14 @@ Download the [latest release](https://github.com/Randhomme/NFSWorldSplitsHud/rel
 
 Currently available on :
 - FreeroamSparkServer
-- NightRiderz (included as a server mod directly)*
+- NightRiderz (will be included as a server mod directly)*
 - Overdrive
 - UndergroundStage
 - Vanilla
 - WorldEvolved
 - WorldUnited
 
-*there won't be any download link for NR since it's already included in the server mods
+*there won't be any download link for NR since it will be already included in the server mods
 
 ## How does it work ?
 
