@@ -7,14 +7,12 @@ Download the [latest release](https://github.com/Randhomme/NFSWorldSplitsHud/rel
 
 Currently available on :
 - FreeroamSparkServer
-- NightRiderz (will be included as a server mod directly)*
+- NightRiderz (as server mod)
 - Overdrive
 - UndergroundStage
 - Vanilla
 - WorldEvolved
 - WorldUnited
-
-*there won't be any download link for NR since it will be already included in the server mods
 
 ## How does it work ?
 
@@ -40,9 +38,9 @@ Currently available on :
 
 Here is how a run looks like (it's a 5:56.527 on Highway 142) :
 ```
-1393,1393;2143,db0;2d72,c2f;3b87,e15;47f1,c6a;53be,bcd;5f14,b56;6aca,bb6;7600,b36;8029,a29;8925,8fc;9286,961;9c4c,9c6;a7a3,b57;b3cb,c28;b4f7,12c;c627,1130;d43a,e13;e0b5,c7b;ed38,c83;fcd6,f9e;10708,a32;11629,f21;124b2,e89;13585,10d3;152d9,1d54;163b4,10db;1777e,13ca;18278,afa;190e2,e6a;19fcb,ee9;1b47d,14b2;1c39b,f1e;1d145,daa;1e162,101d;1ef5a,df8;1ff0d,fb3;20e56,f49;2217e,1328;23034,eb6;23f82,f4e;2524a,12c8;265bc,1372;274a5,ee9;282b4,e0f;28f3c,c88;29a74,b38;2a690,c1c;2b568,ed8;2bf2e,9c6;2ceba,f8c;2da71,bb7;2e6f0,c7f;2f443,d53;300bd,c7a;30c77,bba;317cd,b56;32321,b54;32edf,bbe;3385a,97b;34141,8e7;34ac0,97f;354ca,a0a;3601c,b52;36b5d,b41;36e1a,2bd;37fd0,11b6;38dbd,ded;39984,bc7;3a6ce,d4a;3b670,fa2;3bfcf,95f;3ce45,e76;3ddde,f99;3ef34,1156;40c04,1cd0;41cce,10ca;42cce,1000;437be,af0;44569,dab;4543b,ed2;46900,14c5;477ce,ece;48589,dbb;4957f,ff6;4a3f3,e74;4b2d3,ee0;4c2ca,ff7;4d538,126e;4e400,ec8;4f3a4,fa4;5072a,1386;518bd,1193;526d1,e14;5347a,da9;540e3,c69;54cbe,bdb;55857,b99;56751,efa;570af,95e
+1393;2143;2d72;3b87;47f1;53be;5f14;6aca;7600;8029;8925;9286;9c4c;a7a3;b3cb;b4f7;c627;d43a;e0b5;ed38;fcd6;10708;11629;124b2;13585;152d9;163b4;1777e;18278;190e2;19fcb;1b47d;1c39b;1d145;1e162;1ef5a;1ff0d;20e56;2217e;23034;23f82;2524a;265bc;274a5;282b4;28f3c;29a74;2a690;2b568;2bf2e;2ceba;2da71;2e6f0;2f443;300bd;30c77;317cd;32321;32edf;3385a;34141;34ac0;354ca;3601c;36b5d;36e1a;37fd06;38dbd;39984;3a6ce;3b670;3bfcf;3ce45;3ddde;3ef34;40c04;41cce;42cce;437be;44569;4543b;46900;477ce;48589;4957f;4a3f3;4b2d3;4c2ca;4d538;4e400;4f3a4;5072a;518bd;526d1;5347a;540e3;54cbe;55857;56751;570af
 ```
-Format is `Split1,Segment1;...;Split100,Segment100`, with all the values in milliseconds written in hexadecimal.
+Format is `split1;...;split100`, with all the values in milliseconds written in hexadecimal.
 You can import this run as a comparison run by pasting it in `ComparisonRun.txt` and clicking the `Import` button, as written above
 
 ## The features
