@@ -5,6 +5,8 @@ A set of GFX files to display splits during a race (sprint and circuit)
 
 Download the [latest release](https://github.com/Randhomme/NFSWorldSplitsHud/releases/latest) for the server you want. Then drop the files in the `GFX` folder when your game is already running.
 
+Remember to install it again after a game restart, because the modded files will probably be restored to the original ones.
+
 Currently available on :
 - FreeroamSparkServer
 - NightRiderz (as server mod)
